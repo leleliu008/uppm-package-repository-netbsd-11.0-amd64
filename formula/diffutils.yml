@@ -1,0 +1,5 @@
+summary: A package of several programs related to finding differences between files
+webpage: https://www.gnu.org/software/diffutils
+version: 3.12 
+bin-url: https://github.com/leleliu008/uppm-package-repository-netbsd-11.0-amd64/releases/download/2026.11.20/diffutils-3.12-netbsd-11.0-amd64.release.tar.xz 
+bin-sha: bef29b50a97ecb3833cd943b4ffee7e4933715629b9857396954d0020de67cfb

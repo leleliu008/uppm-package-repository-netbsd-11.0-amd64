@@ -1,0 +1,5 @@
+summary: Yacc-compatible Parser generator
+webpage: https://www.gnu.org/software/bison
+version: 3.8.2 
+bin-url: https://github.com/leleliu008/uppm-package-repository-netbsd-11.0-amd64/releases/download/2026.11.20/bison-3.8.2-netbsd-11.0-amd64.release.tar.xz 
+bin-sha: 7d963000323ae0c3406cf9e7261fca50aa2ec8d8734901be1cc6d5cfccf3fd76

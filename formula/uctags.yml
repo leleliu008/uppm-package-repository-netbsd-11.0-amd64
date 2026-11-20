@@ -1,0 +1,5 @@
+summary: Maintained ctags implementation
+webpage: https://ctags.io/
+version: 2026.11.20 
+bin-url: https://github.com/leleliu008/uppm-package-repository-netbsd-11.0-amd64/releases/download/2026.11.20/uctags-2026.11.20-netbsd-11.0-amd64.release.tar.xz 
+bin-sha: d3abcff118b15f0e588a00fc97f2a809621456016bbbb641e8104613863482d0

@@ -1,0 +1,5 @@
+summary: GNU awk utility
+webpage: https://www.gnu.org/software/gawk
+version: 5.4.0 
+bin-url: https://github.com/leleliu008/uppm-package-repository-netbsd-11.0-amd64/releases/download/2026.11.20/gawk-5.4.0-netbsd-11.0-amd64.release.tar.xz 
+bin-sha: fca3e1d83ef6b7777c488bf4bba479105cfdf5408b6a2628acd3c37bac4ec664

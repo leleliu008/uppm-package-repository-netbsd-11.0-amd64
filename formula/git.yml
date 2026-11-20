@@ -1,0 +1,5 @@
+summary: A free and open source distributed version control system with speed and efficiency
+webpage: https://git-scm.com/
+version: 2.55.0 
+bin-url: https://github.com/leleliu008/uppm-package-repository-netbsd-11.0-amd64/releases/download/2026.11.20/git-2.55.0-netbsd-11.0-amd64.release.tar.xz 
+bin-sha: 2d64ad302480acb9adb930a0c673efeb08e109ac9fc3920617e661532d606ef6

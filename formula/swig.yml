@@ -1,0 +1,5 @@
+summary: A command-line tool for generating scripting interfaces to C/C++ code
+webpage: https://www.swig.org/
+version: 4.4.1 
+bin-url: https://github.com/leleliu008/uppm-package-repository-netbsd-11.0-amd64/releases/download/2026.11.20/swig-4.4.1-netbsd-11.0-amd64.release.tar.xz 
+bin-sha: a4dbc10abfb9b16922ce074740deaf80fa25bab5c59d1593e126b17ffa2d9dab
