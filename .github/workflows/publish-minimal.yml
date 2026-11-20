@@ -1,4 +1,4 @@
-name: publish mininal
+name: publish a new release (mininal)
 
 permissions:
   contents: write
@@ -6,7 +6,12 @@ permissions:
 on:
   workflow_dispatch:
 
+  schedule:
+    # every monday UTC 00:00
+    - cron: '0 0 * * 1'
+
 jobs:
+
   build:
     strategy:
       fail-fast: false
@@ -43,7 +48,7 @@ jobs:
             PACKAGE_VERSION="$(./ppkg show ${{ matrix.pkg }} version)"
             PACKAGE_WEB_URL="$(./ppkg show ${{ matrix.pkg }} web-url)"
 
-            PACKAGE_BIN_FILENAME="${{ matrix.pkg }}-$PACKAGE_VERSION-netbsd-11.0-amd64.release.tar.xz"
+            PACKAGE_BIN_FILENAME="$(ls *.tar.xz)"
 
             SHA256SUM="$(/usr/pkg/bin/gsha256sum "$PACKAGE_BIN_FILENAME")"
 
@@ -63,8 +68,8 @@ jobs:
         with:
           name: ${{ matrix.pkg }}
           path: |
-            ${{ matrix.pkg }}-*-netbsd-11.0-amd64.release.tar.xz
-            ${{ matrix.pkg }}.yml
+            *.tar.xz
+            *.yml
 
 
   publish:
